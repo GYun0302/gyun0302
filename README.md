@@ -10,18 +10,24 @@ Hexo 是一个快速、简洁且高效的博客框架。 Hexo 使用 [Markdown]
 
 ## 二、快速开始
 
-使用如下命令，快速运行一个 Hexo 程序：
+### 启动
+- 快速启动：你可以通过点击 JupyterLab 顶部的 **运行按钮** 快速启动。
 
-```
-// 安装依赖包
-yarn install
-// 运行示例程序
-yarn run server
-```
+    <img src="img/image1.png" width=800px>
 
-**输出结果：**
+- 手动启动：使用如下命令，快速运行一个 Hexo 程序：
+    ```
+    // 安装依赖包
+    yarn install
+    // 运行示例程序
+    yarn run server
+    ```
 
-<img title="" src="img\output.png" alt="" width="194">
+### 访问
+1. 点击 Cloud Studio 右侧的 **【端口管理】** 按钮；
+2. 找到端口 `4000`（开发服务器默认端口），点击对应的 **【查看预览】**；
+
+<img src="img/output.png" width="600px">
 
 ### 三.  文件结构
 
@@ -59,24 +65,24 @@ workspace/
 
 [yarn官网](https://www.yarnpkg.cn/)
 
-## 三、  常见问题
+## 三、帮助和支持
+### 1. Cloud Studio 相关支持
+- [Cloud Studio 帮助文档](https://cloudstudio.net/docs/)
 
-[Cloud Studio（云端 IDE） 常见问题-文档中心-腾讯云](https://cloud.tencent.com/document/product/1039/33505)
+### 2. 用户反馈群
+扫码加入 Cloud Studio 用户反馈群，获取实时技术支持：
+- 腾讯云工程师群内答疑，解决环境与训练问题；
+- 优先体验产品上新功能，获取专属活动通知；
+- 与其他开发者交流 LoRA 训练经验与技巧。
 
-[Cloud Studio 轻量版 帮助文档](https://docs.qq.com/aio/DRUFZcHVvZlJuY3l2?p=1QOiTiIR9g0KMJneBDyfgM)
+<img src="img/qr-code.png" width="270">
 
-[Cloud Studio（云端 IDE） | Cloud Studio](https://ide.cloud.tencent.com/docs/)
 
-## 帮助和支持
 
-##### 欢迎加入Cloud Studio用户反馈群
-
-当您遇到问题需要处理时，您可以直接通过到扫码进入Cloud Studio用户群进行提问.
-
-- 腾讯云工程师实时群内答疑
-
-- 扫码入群可先享受产品上新功能
-
-- 更多精彩活动群内优享
-
-<img title="" src="img/qr-code.png" alt="qr-code.png" width="270">
+使用：
+新建文章
+    npx hexo new "标题"
+本地预览
+    npx hexo s
+发布：
+    npx hexo d
