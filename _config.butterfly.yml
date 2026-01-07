@@ -24,6 +24,8 @@ menu:
   首页: / || fas fa-home
   学习记录:
     强化学习的数学原理: categories/study/rlmath/ || fas fa-calculator
+  教程系列:
+    常用工具: categories/tools/ || fas fa-tool
   阅读记录:
     书籍: /categories/阅读记录/书籍/ || fas fa-book
   心情随笔:
