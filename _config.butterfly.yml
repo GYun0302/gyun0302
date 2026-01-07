@@ -23,13 +23,13 @@ nav:
 menu:
   首页: / || fas fa-home
   学习记录:
-    强化学习的数学原理: categories/study/rlmath/ || fas fa-calculator
+    强化学习的数学原理: categories/学习记录/强化学习的数学原理/ || fas fa-calculator
   教程系列:
-    常用工具: categories/tools/ || fas fa-tool
+    常用工具: categories/教程系列/常用工具/ || fas fa-tool
   阅读记录:
     书籍: /categories/阅读记录/书籍/ || fas fa-book
   心情随笔:
-    可爱的面条宝宝: /categories/baby/ || fas fa-cat
+    可爱的面条宝宝: /categories/心情随笔/可爱的面条宝宝/ || fas fa-cat
     无用碎碎念: /categories/心情随笔/无用碎碎念 || fas fa-feather
 
 # --------------------------------------
