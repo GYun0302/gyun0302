@@ -1,5 +1,5 @@
 ---
-title: 认识各种python库
+title: python库记录
 date: 2026-01-07 15:30:00
 tags: [python库,认识]
 categories: 

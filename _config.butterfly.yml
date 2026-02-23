@@ -24,6 +24,8 @@ menu:
   首页: / || fas fa-home
   学习记录:
     强化学习的数学原理: categories/学习记录/强化学习的数学原理/ || fas fa-calculator
+    操作系统: categories/学习记录/强化学习的数学原理/ || fas fa-calculator
+    计算机网络: categories/学习记录/强化学习的数学原理/ || fas fa-calculator
   教程系列:
     常用工具: categories/教程系列/常用工具/ || fas fa-tool
   阅读记录:
